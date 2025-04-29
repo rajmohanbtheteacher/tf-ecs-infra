@@ -1,0 +1,16 @@
+variable "cluster_name" {}
+variable "task_family" {}
+variable "task_cpu" {}
+variable "task_memory" {}
+variable "container_name" {}
+variable "container_image" {}
+variable "container_port" {}
+variable "execution_role_arn" {}
+variable "task_role_arn" {}
+variable "service_name" {}
+variable "desired_count" {}
+variable "private_subnets" {}
+variable "ecs_sg_id" {}
+variable "target_group_arn" {}
+variable "alb_listener" {}
+variable "ephemeral_storage_size" {}
